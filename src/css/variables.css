@@ -1,0 +1,9 @@
+:root{
+    --body-bg-color:hsl(210, 46%, 95%);
+    --neutral-soft-comment-bg-color:hsl(0, 0%, 100%);
+    --neutral-medium-comment-bg-color:hsl(217, 19%, 35%);
+    --neutral-dark-comment-bg-color: hsl(219, 29%, 14%);
+    --primary-soft-comment-bg-color:hsl(263, 55%, 52%);
+    --img-border-color:hsla(263, 44%, 61%, 0.993);
+    
+}
