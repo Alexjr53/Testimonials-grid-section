@@ -1,0 +1,16 @@
+@media(max-width:980px){
+    main{
+        grid-template-areas: "daniel"
+                             "jonathan"
+                             "jeanette"
+                             "patrick"
+                             "kira";
+        grid-template-columns: 1fr;
+        margin: 6rem 2rem;
+    }
+
+    .daniel-card{
+        grid-area: daniel;
+        background: var(--primary-soft-comment-bg-color) url(../images/bg-pattern-quotation.svg) no-repeat 90% top;
+    }
+}
