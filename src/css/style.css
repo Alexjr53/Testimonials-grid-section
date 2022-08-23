@@ -15,9 +15,10 @@ main{
     display: grid;
     grid-template-areas: "daniel daniel jonathan kira"
                          "jeanette patrick patrick kira";
-    gap: 2.8rem;
-    grid-template-columns: repeat(4, 25.6rem);
-    grid-template-rows: 28.2rem 26.6rem;
+    gap: 2.3rem 2.8rem;
+    max-width: 1110px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3rem;
 }
 
 .comments{
@@ -38,7 +39,7 @@ main{
 
 .comments .profile .name-container h3{
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .comments .profile .name-container p{
@@ -52,6 +53,7 @@ main{
 .comments .comment{
     font-size: 1.3rem;
     line-height: 1.8rem;
+    padding-bottom: 3rem;
 }
 
 .dark-card .profile .name-container h3{
@@ -64,91 +66,65 @@ main{
 
 .dark-card .emphasis{
     color: white;
-    text-shadow: #000000;
+    margin-top: 1.7rem; 
 }
 
 .dark-card .comment{
     color: #ffffff63;
+    margin-top: 1.6rem;
+    
 }
 
-.daniel{
+.daniel-card{
     grid-area: daniel;
-    background-color: var(--primary-soft-comment-bg-color);
+    background: var(--primary-soft-comment-bg-color) url(../images/bg-pattern-quotation.svg) no-repeat 82% top;
 }
 
-.daniel .profile img{
+.daniel-card .profile img{
     border: 2px solid var(--img-border-color);
 }
 
-.daniel .emphasis{
-    margin-top: 1.8rem;
-}
-
-.daniel .comment{
-    margin-top: 1.6rem;
-}
-
-.jonathan{
+.jonathan-card{
     grid-area: jonathan;
     background-color: var(--neutral-medium-comment-bg-color);
 }
 
-.jonathan .emphasis{
-    margin-top: 1.8rem;
-}
-
-.jonathan .comment{
-    margin-top: 1.6rem;
-}
-
-.kira{
+.kira-card{
     grid-area: kira;
     background-color: var(--neutral-soft-comment-bg-color);
 }
 
-.kira .profile .name-container h3{
-    font-weight: 600;
-}
-
-.kira .emphasis{
+.kira-card .emphasis{
     margin-top: 1.6rem;
 }
 
-.kira .comment{
+.kira-card .comment{
     margin-top: 2.5rem;
 }
 
-.jeanette{
+.jeanette-card{
     grid-area: jeanette;
     background-color: var(--neutral-soft-comment-bg-color);
 }
 
-.jeanette .profile .name-container h3{
-    font-weight: 600;
-}
-
-.jeanette .emphasis{
+.jeanette-card .emphasis{
     margin-top: 1.3rem;
     padding-right: 2rem;
 }
 
-.jeanette .comment{
+.jeanette-card .comment{
     margin-top: 2.3rem;
 }
 
-.patrick{
+.patrick-card{
     grid-area: patrick;
     background-color: var(--neutral-dark-comment-bg-color);
 }
 
-.patrick .profile img{
+.patrick-card .profile img{
     border: 2px solid var(--img-border-color);
 }
 
-.patrick .emphasis{
-    margin-top: 1.3rem; 
-}
-
-.patrick .comment{
+.patrick-card .comment{
     margin-top: 2.3rem;
 }
