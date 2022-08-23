@@ -1,0 +1,154 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--body-bg-color);
+}
+
+main{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: grid;
+    grid-template-areas: "daniel daniel jonathan kira"
+                         "jeanette patrick patrick kira";
+    gap: 2.8rem;
+    grid-template-columns: repeat(4, 25.6rem);
+    grid-template-rows: 28.2rem 26.6rem;
+}
+
+.comments{
+    padding: 2.5rem 3rem 0;
+    border-radius: 1rem;
+}
+
+.comments .profile{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.comments .profile img{
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.comments .profile .name-container h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.comments .profile .name-container p{
+    font-size: 1.1rem;
+}
+
+.comments .emphasis{
+    font-size: 2rem;
+}
+
+.comments .comment{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.dark-card .profile .name-container h3{
+    color: white;
+}
+
+.dark-card .profile .name-container p{
+    color: #ffffff56;
+}
+
+.dark-card .emphasis{
+    color: white;
+    text-shadow: #000000;
+}
+
+.dark-card .comment{
+    color: #ffffff63;
+}
+
+.daniel{
+    grid-area: daniel;
+    background-color: var(--primary-soft-comment-bg-color);
+}
+
+.daniel .profile img{
+    border: 2px solid var(--img-border-color);
+}
+
+.daniel .emphasis{
+    margin-top: 1.8rem;
+}
+
+.daniel .comment{
+    margin-top: 1.6rem;
+}
+
+.jonathan{
+    grid-area: jonathan;
+    background-color: var(--neutral-medium-comment-bg-color);
+}
+
+.jonathan .emphasis{
+    margin-top: 1.8rem;
+}
+
+.jonathan .comment{
+    margin-top: 1.6rem;
+}
+
+.kira{
+    grid-area: kira;
+    background-color: var(--neutral-soft-comment-bg-color);
+}
+
+.kira .profile .name-container h3{
+    font-weight: 600;
+}
+
+.kira .emphasis{
+    margin-top: 1.6rem;
+}
+
+.kira .comment{
+    margin-top: 2.5rem;
+}
+
+.jeanette{
+    grid-area: jeanette;
+    background-color: var(--neutral-soft-comment-bg-color);
+}
+
+.jeanette .profile .name-container h3{
+    font-weight: 600;
+}
+
+.jeanette .emphasis{
+    margin-top: 1.3rem;
+    padding-right: 2rem;
+}
+
+.jeanette .comment{
+    margin-top: 2.3rem;
+}
+
+.patrick{
+    grid-area: patrick;
+    background-color: var(--neutral-dark-comment-bg-color);
+}
+
+.patrick .profile img{
+    border: 2px solid var(--img-border-color);
+}
+
+.patrick .emphasis{
+    margin-top: 1.3rem; 
+}
+
+.patrick .comment{
+    margin-top: 2.3rem;
+}
