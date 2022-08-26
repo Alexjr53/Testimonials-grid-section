@@ -2,7 +2,7 @@
 
 Esta é uma solução para o [Desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
-[![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/four-card-feature-section-master/blob/main/LICENSE)
+[![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/Testimonials-grid-section/blob/main/LICENSE)
 
 ## Índice
 
