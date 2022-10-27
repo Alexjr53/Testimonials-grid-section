@@ -1,7 +1,3 @@
-html{
-    font-size: 62.5%;
-}
-
 body{
     min-height: 100vh;
     display: flex;
@@ -21,56 +17,56 @@ main{
     margin: 3rem;
 }
 
-.comments{
+.comments-card{
     padding: 2.5rem 3rem 0;
     border-radius: 1rem;
 }
 
-.comments .profile{
+.comments-card .profile-container{
     display: flex;
     align-items: center;
     gap: 1.7rem;
 }
 
-.comments .profile img{
+.comments-card .profile-container .profile-image{
     border-radius: 50%;
     width: 3rem;
 }
 
-.comments .profile .name-container h3{
+.comments-card .profile-container .name{
     font-size: 1.3rem;
     font-weight: 600;
 }
 
-.comments .profile .name-container p{
+.comments-card .profile-container .verified-stats{
     font-size: 1.1rem;
 }
 
-.comments .emphasis{
+.comments-card .emphasis{
     font-size: 2rem;
 }
 
-.comments .comment{
+.comments-card .comment{
     font-size: 1.3rem;
     line-height: 1.8rem;
     padding-bottom: 3rem;
 }
 
-.dark-card .profile .name-container h3{
-    color: white;
+.dark-card .profile-container .name{
+    color: var(--dark-card-primary-text-color);
 }
 
-.dark-card .profile .name-container p{
-    color: #ffffff56;
+.dark-card .profile-container .verified-stats{
+    color: var(--dark-card-secundary-text-color);
 }
 
 .dark-card .emphasis{
-    color: white;
+    color: var(--dark-card-primary-text-color);
     margin-top: 1.7rem; 
 }
 
 .dark-card .comment{
-    color: #ffffff63;
+    color: var(--dark-card-secundary-text-color);
     margin-top: 1.6rem;
     
 }
@@ -80,8 +76,8 @@ main{
     background: var(--primary-soft-comment-bg-color) url(../images/bg-pattern-quotation.svg) no-repeat 82% top;
 }
 
-.daniel-card .profile img{
-    border: 2px solid var(--img-border-color);
+.daniel-card .profile-container .profile-image{
+    border: var(--img-border-color);
 }
 
 .jonathan-card{
@@ -121,8 +117,8 @@ main{
     background-color: var(--neutral-dark-comment-bg-color);
 }
 
-.patrick-card .profile img{
-    border: 2px solid var(--img-border-color);
+.patrick-card .profile-container .profile-image{
+    border: var(--img-border-color);
 }
 
 .patrick-card .comment{

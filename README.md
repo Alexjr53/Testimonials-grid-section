@@ -1,6 +1,6 @@
 # Frontend Mentor - Solução do Testimonials grid section
 
-Esta é uma solução para o [Desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 
 [![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/four-card-feature-section-master/blob/main/LICENSE)
 
@@ -22,19 +22,19 @@ Esta é uma solução para o [Desafio Testimonials grid section no Frontend Ment
 
 Os usuários devem ser capazes de:
 
-- Visualize o layout ideal para a página, dependendo do tamanho da tela do dispositivo
+- criar o layout ideal para a página, dependendo do tamanho da tela do dispositivo
 
 ### Screenshot
 
 #### Desktop
-![produto](src/images/screenshot-desktop.png)
+![Testimonials grid section](src/design/screenshot-desktop.png)
 
 #### Mobile
-![produto](src/images/screenshot-mobile.gif)
+![Testimonials grid section](src/design/screenshot-mobile.gif)
 
 ### Links
 
-- Solução URL: [Testimonials grid section - Frontend mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section--Mq4T8z6iq)
+- Solução do desafio: [Testimonials grid section - Frontend mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section--Mq4T8z6iq)
 - URL da página: [Testimonials grid section](https://alexjr53.github.io/Testimonials-grid-section/) 
 
 ## Meu processo
