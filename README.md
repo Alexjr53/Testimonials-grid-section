@@ -1,4 +1,4 @@
-# Frontend Mentor - Solução do Testimonials grid section
+# Desafio do Frontend Mentor - Solução do Testimonials grid section
 
 Esta é uma solução para o [Desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 
@@ -34,8 +34,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução do desafio: [Testimonials grid section - Frontend mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section--Mq4T8z6iq)
+- Solução do desafio no frontend mentor: [Testimonials grid section - Frontend mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section--Mq4T8z6iq)
 - URL da página: [Testimonials grid section](https://alexjr53.github.io/Testimonials-grid-section/) 
+- Repositório do projeto no GitHub: [Testimonials grid section](https://github.com/Alexjr53/Testimonials-grid-section)
 
 ## Meu processo
 
